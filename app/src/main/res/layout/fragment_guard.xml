@@ -63,7 +63,8 @@
         app:layout_constraintBottom_toBottomOf="@id/pinkCard"
         app:layout_constraintEnd_toEndOf="@id/pinkCard"
         android:layout_marginEnd="10dp"
-        app:layout_constraintTop_toTopOf="@id/pinkCard" />
+        app:layout_constraintTop_toTopOf="@id/pinkCard"
+        app:tint="@color/white" />
 
     <com.google.android.material.card.MaterialCardView
         app:cardElevation="16dp"
@@ -109,6 +110,7 @@
         app:layout_constraintBottom_toBottomOf="@id/greenCard"
         app:layout_constraintEnd_toEndOf="@id/greenCard"
         android:layout_marginRight="10dp"
+        app:tint="@color/white"
         app:layout_constraintTop_toTopOf="@id/greenCard" />
 
 
